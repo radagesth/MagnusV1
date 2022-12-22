@@ -1,0 +1,85 @@
+Magnus html raiz
+-------------------------------------------
+Directorio raiz de la pagina web de magnus
+-------------------------------------------
+
+------------------------------------------
+NavBar
+------------------------------------------
+
+	El navBar debe contener las siguientes opciones:
+	-Imagen Tamaño Logo
+	-Inicio
+	-Club:
+		-Noticias
+		-Directorio
+		-Instructores y Escuelas
+		-Membresía
+	-Actividades:
+		-Eventos
+		-Cursos  y Seminarios
+
+------------------------------------------
+Body
+------------------------------------------
+	Cada pagina debe tener su cuerpo
+	
+	-Inicio
+	-Club:
+		-Noticias
+		-Directorio
+		-Instructores y Escuelas
+		-Membresía
+	-Actividades:
+		-Eventos
+		-Cursos  y Seminarios
+
+
+------------------------------------------
+Footer
+------------------------------------------
+
+	Sub parte 1
+		Nombre del gym
+		direccion
+		nro de contacto
+		boton de contactenos
+
+	Sub parte 2
+		Boletin informativo
+		boton inscribirme
+		boton de redes sociales: Facebook
+		boton de redes sociales: Instagram
+		boton de redes sociales: Youtube
+
+	Sub parte 3
+		Vinculos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------
+PALETA DE COLORES MAGNUS
+-----------------------------------
+
+	PALETA DE COLORES
+	 #d4946a  #1f2734  #f1f1f1  #cc9c7c  #93969c  #ddbba2  #6c747a  #c3c5cb
+
