@@ -1,27 +1,64 @@
 # MagnusV1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Escribe  `ng serve` para subir local. en el explorador anda a `http://localhost:4200/`. 
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-------------------------------------------
+##Directorio raiz de la pagina web de magnus
+-------------------------------------------
 
-## Build
+    ------------------------------------------
+    ##NavBar   --------------------------------------------------> Actualmente Voy aqui // Roderick
+    ------------------------------------------
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+      El navBar debe contener las siguientes opciones:
+      -Imagen Tamaño Logo
+      -Inicio
+      -Club:
+        -Noticias
+        -Directorio
+        -Instructores y Escuelas
+        -Membresía
+      -Actividades:
+        -Eventos
+        -Cursos  y Seminarios
 
-## Running unit tests
+    ------------------------------------------
+    ##Body
+    ------------------------------------------
+      Cada pagina debe tener su cuerpo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+      -Inicio
+      -Club:
+        -Noticias
+        -Directorio
+        -Instructores y Escuelas
+        -Membresía
+      -Actividades:
+        -Eventos
+        -Cursos  y Seminarios
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    ------------------------------------------
+    ##Footer
+    ------------------------------------------
 
-## Further help
+      Sub parte 1
+        Nombre del gym
+        direccion
+        nro de contacto
+        boton de contactenos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+      Sub parte 2
+        Boletin informativo
+        boton inscribirme
+        boton de redes sociales: Facebook
+        boton de redes sociales: Instagram
+        boton de redes sociales: Youtube
+
+      Sub parte 3
+        Vinculos
