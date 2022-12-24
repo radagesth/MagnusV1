@@ -18,29 +18,28 @@ Escribe  `ng serve` para subir local. en el explorador anda a `http://localhost:
       El navBar debe contener las siguientes opciones:
       -Imagen Tamaño Logo
       -Inicio
+        -Login
+        -Perfil
+          -Pagos
+        -Exit
+
       -Club:
         -Noticias
         -Directorio
         -Instructores y Escuelas
         -Membresía
+
       -Actividades:
         -Eventos
         -Cursos  y Seminarios
 
     ------------------------------------------
-    ##Body
+    ##Body por componente
     ------------------------------------------
-      Cada pagina debe tener su cuerpo
+      Cada componente debe tener su cuerpo siguiendo la paleta de colores de Magnus
+      Cada Componente tiene un cuerpo unico y distinto de cada uno
+      
 
-      -Inicio
-      -Club:
-        -Noticias
-        -Directorio
-        -Instructores y Escuelas
-        -Membresía
-      -Actividades:
-        -Eventos
-        -Cursos  y Seminarios
 
 
     ------------------------------------------

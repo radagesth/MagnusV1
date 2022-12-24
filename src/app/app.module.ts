@@ -10,6 +10,10 @@ import { InstructoresyEscuelasComponent } from './instructoresy-escuelas/instruc
 import { MembresiaComponent } from './membresia/membresia.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { CursosYSeminariosComponent } from './cursos-yseminarios/cursos-yseminarios.component';
+import { PerfilComponent } from './perfil/perfil.component';
+import { LoginComponent } from './login/login.component';
+import { ExitComponent } from './exit/exit.component';
+import { PagosComponent } from './pagos/pagos.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { CursosYSeminariosComponent } from './cursos-yseminarios/cursos-yseminar
     InstructoresyEscuelasComponent,
     MembresiaComponent,
     EventosComponent,
-    CursosYSeminariosComponent
+    CursosYSeminariosComponent,
+    PerfilComponent,
+    LoginComponent,
+    ExitComponent,
+    PagosComponent
   ],
   imports: [
     BrowserModule
