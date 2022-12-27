@@ -14,6 +14,7 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { LoginComponent } from './login/login.component';
 import { ExitComponent } from './exit/exit.component';
 import { PagosComponent } from './pagos/pagos.component';
+import { BotonWSPComponent } from './boton-wsp/boton-wsp.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PagosComponent } from './pagos/pagos.component';
     PerfilComponent,
     LoginComponent,
     ExitComponent,
-    PagosComponent
+    PagosComponent,
+    BotonWSPComponent
   ],
   imports: [
     BrowserModule
