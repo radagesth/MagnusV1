@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./noticias.component.css']
 })
 export class NoticiasComponent {
-  title = 'Magnus Taekwondo Olimpico';
-  bajada= 'Bienvenido a la seccion de noticias de Magnus';
+
 }

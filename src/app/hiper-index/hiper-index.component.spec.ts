@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BotonWSPComponent } from './boton-wsp.component';
+import { HiperIndexComponent } from './hiper-index.component';
 
-describe('BotonWSPComponent', () => {
-  let component: BotonWSPComponent;
-  let fixture: ComponentFixture<BotonWSPComponent>;
+describe('HiperIndexComponent', () => {
+  let component: HiperIndexComponent;
+  let fixture: ComponentFixture<HiperIndexComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BotonWSPComponent ]
+      declarations: [ HiperIndexComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BotonWSPComponent);
+    fixture = TestBed.createComponent(HiperIndexComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -6,7 +6,7 @@
 
 <!--Cuerpo --><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Logo_Magnus</a>
+      <a class="navbar-brand" routerLink="/noticias">Logo_Magnus</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -17,25 +17,24 @@
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
                   <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Noticias</a></li>
+                    <li><a class="dropdown-item"  routerLink="/noticias">Noticias</a></li>
                       <li>
                           <hr class="dropdown-divider">
                       </li>
-                      <li><a class="dropdown-item" href="/directorio/directorio.component.html">Directorio</a></li>
-                      <li><a class="dropdown-item" href="#">Instructores y Escuelas</a></li>
-                      <li><a class="dropdown-item" href="#">Membresia</a></li>
+                      <li><a class="dropdown-item" routerLink="/directorio">Galeria</a></li>
+                      <li><a class="dropdown-item" routerLink="/instructoresyescuelas">Instructores y Escuelas</a></li>
+                      <li><a class="dropdown-item" routerLink="/membresia">Membresia</a></li>
                       <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Eventos</a></li>
-                    <li><a class="dropdown-item" href="#">Cursos  y Seminarios</a></li>
+                    <li><a class="dropdown-item" routerLink="/eventos">Eventos</a></li>
+                    <li><a class="dropdown-item" routerLink="/cursosyseminarios">Cursos Seminarios </a></li>
                     <li>
                       <hr class="dropdown-divider">
                   </li>
-                <li><a class="dropdown-item" href="#">Login</a></li>
-
+                <li><a class="dropdown-item" routerLink="/login">Login</a></li>
+                <li><a class="dropdown-item" routerLink="/exit">Exit</a></li>
                   </ul>
-              
           </ul>
       </div>
   </div>

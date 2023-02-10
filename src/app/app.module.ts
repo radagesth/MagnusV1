@@ -14,7 +14,8 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { LoginComponent } from './login/login.component';
 import { ExitComponent } from './exit/exit.component';
 import { PagosComponent } from './pagos/pagos.component';
-import { BotonWSPComponent } from './boton-wsp/boton-wsp.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HiperIndexComponent } from './hiper-index/hiper-index.component';
 
 @NgModule({
   declarations: [
@@ -31,10 +32,11 @@ import { BotonWSPComponent } from './boton-wsp/boton-wsp.component';
     LoginComponent,
     ExitComponent,
     PagosComponent,
-    BotonWSPComponent
+    HiperIndexComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
