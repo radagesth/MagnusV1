@@ -11,53 +11,71 @@ Escribe  `ng serve` para subir local. en el explorador anda a `http://localhost:
 ##Directorio raiz de la pagina web de magnus
 -------------------------------------------
 
-    ------------------------------------------
-    ##NavBar   --------------------------------------------------> Actualmente Voy aqui // Roderick
-    ------------------------------------------
+----------------------------------------
+Listado de Faltant-es:
+--------------------------------------
+NavBar
+--------------------------------------
+-Login al lado del boton del menu
+-Login sea un boton Fijo y llamativo
 
-      El navBar debe contener las siguientes opciones:
-      -Imagen Tamaño Logo
-      -Inicio
-        -Login
-        -Perfil
-          -Pagos
-        -Exit
-
-      -Club:
-        -Noticias
-        -Directorio
-        -Instructores y Escuelas
-        -Membresía
-
-      -Actividades:
-        -Eventos
-        -Cursos  y Seminarios
-
-    ------------------------------------------
-    ##Body por componente
-    ------------------------------------------
-      Cada componente debe tener su cuerpo siguiendo la paleta de colores de Magnus
-      Cada Componente tiene un cuerpo unico y distinto de cada uno
-      
+Noticias 
+----------------------------------
+-Landing Page :
+                -Carousell con fotos de la academia
+                -Cada foto debe tener una baja con acceso a alguna parte de la pagina:
+                Nosotros, Nuestra vision , Contacto, Eventos
+                -
+                -
+                -
+                -
+-Hacer count down para los eventos que estan en tknet
+-Noticias
+-Añadir un "Nosotros"  a la landin page 
+-Vision
+-Mision
 
 
+------------------------------------
+Galeria
+-----------------------------------
+-el visor de imagenes (y videos?)
+con descripcion
+- realizar una seleccion de las imagenes a cargar.(Definir tamaño y resolucion)
+- ver si se puede realizar la conexion a el ig de magnus
 
-    ------------------------------------------
-    ##Footer
-    ------------------------------------------
 
-      Sub parte 1
-        Nombre del gym
-        direccion
-        nro de contacto
-        boton de contactenos
+----------------------------------
+Instructores y Escuela
+----------------------------------
+-la separacion entre sede principal y sedes secundarias
+-Comenzar a trabajar en la sede principal con los datos reales.
+-Circulo con imagen de instructores
 
-      Sub parte 2
-        Boletin informativo
-        boton inscribirme
-        boton de redes sociales: Facebook
-        boton de redes sociales: Instagram
-        boton de redes sociales: Youtube
+-------------------------------------
+Membresia
+-------------------------------------
+-Darle estructura al cuerpo de la pagina.
+-Reunir informacion sobre la membresia
+  -Datos de pago
+  -Beneficios
+  -
+-------------------------------------
+Eventos
+-------------------------------------
+-Darle estructura al cuerpo de la pagina.
 
-      Sub parte 3
-        Vinculos
+-------------------------------------
+Cursos y seminarios Work
+-------------------------------------
+-Darle estructura al cuerpo de la pagina.
+-------------------------------------
+Footer
+-Icono redes sociales
+--------------------------------------
+--------------------------------------
+
+
+
+Crear el canal de youtube "Academia Magnus"
+Logo de estamos trabajando para usted
