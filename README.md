@@ -18,20 +18,22 @@ NavBar
 --------------------------------------
 -Login al lado del boton del menu
 -Login sea un boton Fijo y llamativo
+-Logo Magnus
+
 
 Noticias 
 ----------------------------------
 -Landing Page :
-                -Carousell con fotos de la academia
-                -Cada foto debe tener una baja con acceso a alguna parte de la pagina:
-                Nosotros, Nuestra vision , Contacto, Eventos
-                -
-                -
-                -
-                -
--Hacer count down para los eventos que estan en tknet
--Noticias
--Añadir un "Nosotros"  a la landin page 
+                -Carousell con fotos de la academia      - Check 12-02
+
+-Hacer count down para los eventos que estan en tknet - Check 12-02 
+Pero:
+- se debe agregar la paleta de colores de magnus
+- modificar la imagen por la imagen de magnus
+- no es sabonim si no magnus quien da el aviso
+- botones de redes sociales
+-debe quedar relacional en % al ancho de la pantalla no en PX
+
 -Vision
 -Mision
 

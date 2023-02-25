@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./eventos.component.css']
 })
 export class EventosComponent {
-
+    Title1 = 'Eventos';
 }
