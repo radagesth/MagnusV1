@@ -11,7 +11,8 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { LoginComponent } from './login/login.component';
 import { ExitComponent } from './exit/exit.component';
 import { PagosComponent } from './pagos/pagos.component';
-
+import { SwitcherComponent } from './switcher/switcher.component';
+import { Carousel1Component } from './carousel1/carousel1.component';
 
 
 
@@ -20,6 +21,8 @@ import { PagosComponent } from './pagos/pagos.component';
 
 
 const routes: Routes = [
+  {path:'carousel', component:Carousel1Component},
+  {path: 'switcher',component:SwitcherComponent},
   { path: 'eventos', component: EventosComponent },
   { path:"noticias", component: NoticiasComponent },
   { path:"directorio", component:DirectorioComponent },

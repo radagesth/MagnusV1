@@ -16,6 +16,8 @@ import { ExitComponent } from './exit/exit.component';
 import { PagosComponent } from './pagos/pagos.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HiperIndexComponent } from './hiper-index/hiper-index.component';
+import { SwitcherComponent } from './switcher/switcher.component';
+import { Carousel1Component } from './carousel1/carousel1.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { HiperIndexComponent } from './hiper-index/hiper-index.component';
     LoginComponent,
     ExitComponent,
     PagosComponent,
-    HiperIndexComponent
+    HiperIndexComponent,
+    SwitcherComponent,
+    Carousel1Component
   ],
   imports: [
     BrowserModule,
