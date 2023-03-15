@@ -1,6 +1,6 @@
 .event .panel-body {
-  background: #BBDEFB;
-  border: 1px solid #448AFF;
+  background:   #c3c5cb;
+  border: 1px solid #1f2734;
   padding:0;
   margin:0;
   height:86px;
@@ -13,7 +13,7 @@
   padding: 0;
   text-align: center;
   position: relative;
-  background: #64B5F6;
+  background:  #93969c;
   color: white;
   height: 100%;
 }
@@ -22,7 +22,7 @@
   font-size: 12px;
   position: absolute;
   bottom: 0;
-  background: #42A5F5;
+  background: #c3c5cb;
   width: 100%;
 }
 
@@ -48,7 +48,7 @@
   border-right: 1px solid white;
 }
 .event .rsvp span:hover{
-  color: #1565C0;
+  color:  #93969c;
 }
 
 .event .info{
@@ -65,7 +65,7 @@
   padding: 3px;
   width: 5em;
   border-radius: 50%;
-  border: 1px solid #CCC;
+  border: 1px solid  #93969c;
   box-sizing: content-box;
   z-index: 1;
   top:4px;
@@ -78,15 +78,15 @@
 
 /* Overwrites */
 .nav-tabs a {
-  background: #90CAF9;
+  background:  #c3c5cb;
   color: white;
 }
 .info .nav-tabs li.active a {
-  background-color: #448AFF;
+  background-color: #93969c;
   color: white;
 }
 .info .nav-tabs li:hover a, .info .nav-tabs li.active:hover a {
-  background: #00BCD4;
+  background: #93969c;
   color: white;
 }
 .tab-content {
@@ -112,7 +112,7 @@
 
     .event .panel-body .author {
       position: relative;
-      color: #2196F3;
+      color: #93969c;
       padding:10px;
       height:100%;
     }
@@ -130,7 +130,7 @@
       color: white;
       font:20px bold 'Fredoka One', serif;
       -webkit-text-stroke-width: .6px;
-      -webkit-text-stroke-color: #448AFF;
+      -webkit-text-stroke-color: #93969c;
       margin-bottom: 5px;
     }
     .event .author .profile i {

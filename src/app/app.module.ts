@@ -18,6 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HiperIndexComponent } from './hiper-index/hiper-index.component';
 import { SwitcherComponent } from './switcher/switcher.component';
 import { Carousel1Component } from './carousel1/carousel1.component';
+import { NavNoticiasComponent } from './nav-noticias/nav-noticias.component';
+import { RegistrarseComponent } from './registrarse/registrarse.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { Carousel1Component } from './carousel1/carousel1.component';
     PagosComponent,
     HiperIndexComponent,
     SwitcherComponent,
-    Carousel1Component
+    Carousel1Component,
+    NavNoticiasComponent,
+    RegistrarseComponent
   ],
   imports: [
     BrowserModule,

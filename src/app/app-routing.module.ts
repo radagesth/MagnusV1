@@ -13,6 +13,8 @@ import { ExitComponent } from './exit/exit.component';
 import { PagosComponent } from './pagos/pagos.component';
 import { SwitcherComponent } from './switcher/switcher.component';
 import { Carousel1Component } from './carousel1/carousel1.component';
+import { NavNoticiasComponent } from './nav-noticias/nav-noticias.component';
+import { RegistrarseComponent } from './registrarse/registrarse.component';
 
 
 
@@ -21,6 +23,7 @@ import { Carousel1Component } from './carousel1/carousel1.component';
 
 
 const routes: Routes = [
+  {path: 'registrarse', component:RegistrarseComponent},
   {path:'carousel', component:Carousel1Component},
   {path: 'switcher',component:SwitcherComponent},
   { path: 'eventos', component: EventosComponent },
@@ -33,6 +36,7 @@ const routes: Routes = [
   { path:"login", component:LoginComponent },
   { path:"exit", component: ExitComponent},
   { path:"pagos", component: PagosComponent},
+  {path:'navNoticias',component:NavNoticiasComponent},
   {path: '', redirectTo: '/noticias', pathMatch: 'full'},
  // {path: '**', component: PageNotFoundComponent}
 
