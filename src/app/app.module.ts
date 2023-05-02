@@ -20,6 +20,7 @@ import { SwitcherComponent } from './switcher/switcher.component';
 import { Carousel1Component } from './carousel1/carousel1.component';
 import { NavNoticiasComponent } from './nav-noticias/nav-noticias.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
+import { ForggotpwdComponent } from './forggotpwd/forggotpwd.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { RegistrarseComponent } from './registrarse/registrarse.component';
     SwitcherComponent,
     Carousel1Component,
     NavNoticiasComponent,
-    RegistrarseComponent
+    RegistrarseComponent,
+    ForggotpwdComponent
   ],
   imports: [
     BrowserModule,
