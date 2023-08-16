@@ -2,3 +2,8 @@ body{
   min-height: 1vh;
   background-color: #93969c;
 }
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
