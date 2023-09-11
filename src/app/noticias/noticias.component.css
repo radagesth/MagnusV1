@@ -3,9 +3,28 @@
 /* Se debe hacer el css para dejar el fondo del apartado de instagram negro*/
 
 
-/*   */
 
 
+/* Luna  */
+.luna {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 30px 10px 0 #d9534f;
+    -webkit-box-shadow: 30px 10px 0 #d9534f;
+    box-shadow: 30px 10px 0 #d9534f;
+  }
+  
+  /* Ribbon  */
+  .ribbon {
+    width: 0px;
+    height: 120px;
+    border-left: 50px solid #d9534f;
+    border-right: 50px solid #d9534f;
+    border-bottom: 35px solid transparent;
+  }
 
 
 /*   */
