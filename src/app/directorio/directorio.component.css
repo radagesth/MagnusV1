@@ -95,17 +95,8 @@ body {
 }
 
 
-/* Boton Calendario  */
-.botonCalendario{
-  min-width: 250px;
-  text-align:center;
 
-}
-/* Calendario  */
-.Calendario1{
 
-  border: 3px solid #555;
-}
 
 
 /* Luna  */
@@ -127,4 +118,42 @@ body {
   border-left: 50px solid #d9534f;
   border-right: 50px solid #d9534f;
   border-bottom: 35px solid transparent;
+}
+
+
+
+
+
+
+
+/* CSS del calendario  */
+/*    */
+.Calendario1{
+
+  border: 3px solid #555;
+  min-width: 25%;
+  width: 25%;
+  margin: 1%;
+  padding: 1%;
+
+}
+
+.Calendario2{
+
+  border: 5px solid rgb(5, 5, 5);
+  width: 300px;
+  margin: 10%;
+  padding: 10%;
+
+
+
+}
+
+
+
+/* Boton Calendario  */
+.botonCalendario{
+  min-width: 250px;
+  text-align:center;
+
 }
