@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./directorio.component.css']
 })
 export class DirectorioComponent {
+  galleryImages: string[] = [
+    'assets/image1.jpg',
+    'assets/image2.jpg',
+    'assets/image3.jpg',
+    // Agrega aquí las rutas de tus imágenes
+  ];
 
 }

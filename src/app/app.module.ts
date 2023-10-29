@@ -21,6 +21,8 @@ import { Carousel1Component } from './carousel1/carousel1.component';
 import { NavNoticiasComponent } from './nav-noticias/nav-noticias.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 import { ForggotpwdComponent } from './forggotpwd/forggotpwd.component';
+import { ClassScheduleComponent } from './class-schedule/class-schedule.component';
+import { AuthService } from './auth.service';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { ForggotpwdComponent } from './forggotpwd/forggotpwd.component';
     Carousel1Component,
     NavNoticiasComponent,
     RegistrarseComponent,
-    ForggotpwdComponent
+    ForggotpwdComponent,
+    ClassScheduleComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -15,7 +15,7 @@ import { SwitcherComponent } from './switcher/switcher.component';
 import { Carousel1Component } from './carousel1/carousel1.component';
 import { NavNoticiasComponent } from './nav-noticias/nav-noticias.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
-
+import { ClassScheduleComponent } from './class-schedule/class-schedule.component';
 
 
 
@@ -37,6 +37,7 @@ const routes: Routes = [
   { path:"exit", component: ExitComponent},
   { path:"pagos", component: PagosComponent},
   {path:'navNoticias',component:NavNoticiasComponent},
+  {path:'horarios',component:ClassScheduleComponent},
   {path: '', redirectTo: '/noticias', pathMatch: 'full'},
  // {path: '**', component: PageNotFoundComponent}
 

@@ -1,159 +1,27 @@
-body {
-    background-color:#1d1d1d !important;
-    font-family: "Asap", sans-serif;
-    color:#989898;
-    margin:10px;
-    font-size:16px;
-  }
-
-  #demo {
-    height:100%;
-    position:relative;
-    overflow:hidden;
-  }
-
-
-  .green{
-    background-color:#93969c;
-  }
-          .thumb{
-              margin-bottom: 30px;
-          }
-
-          .page-top{
-              margin-top:85px;
-          }
-
-
-  img.zoom {
-      width: 100%;
-      height: 200px;
-      border-radius:5px;
-      object-fit:cover;
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-  }
-
-
-  .transition {
-      -webkit-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-  }
-      .modal-header {
-
-       border-bottom: none;
-  }
-      .modal-title {
-          color:#000;
-      }
-      .modal-footer{
-        display:none;
-      }
-
-/* CSS del drop down*/.dropbtn {
-  background-color: #93969c;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.gallery {
+  background-color: #f4f4f4;
+  padding: 50px 0;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.gallery h1 {
+  text-align: center;
+  font-size: 36px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: transparent;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 50% 50%;
-  text-decoration: none;
-  display: block;
+.image {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #93969c;
-}
-
-
-
-
-
-
-/* Luna  */
-.luna {
-  width: 100px;
-  height: 100px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -moz-box-shadow: 30px 10px 0 #d9534f;
-  -webkit-box-shadow: 30px 10px 0 #d9534f;
-  box-shadow: 30px 10px 0 #d9534f;
-}
-
-/* Ribbon  */
-.ribbon {
-  width: 0px;
-  height: 120px;
-  border-left: 50px solid #d9534f;
-  border-right: 50px solid #d9534f;
-  border-bottom: 35px solid transparent;
-}
-
-
-
-
-
-
-
-/* CSS del calendario  */
-/*    */
-.Calendario1{
-
-  border: 3px solid #555;
-  min-width: 25%;
-  width: 25%;
-  margin: 1%;
-  padding: 1%;
-
-}
-
-.Calendario2{
-
-  border: 5px solid rgb(5, 5, 5);
-  width: 300px;
-  margin: 10%;
-  padding: 10%;
-
-
-
-}
-
-
-
-/* Boton Calendario  */
-.botonCalendario{
-  min-width: 250px;
-  text-align:center;
-
+.image img {
+  max-width: 100%;
+  height: auto;
 }

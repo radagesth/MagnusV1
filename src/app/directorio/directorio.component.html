@@ -10,93 +10,13 @@
 
     <!-- Page Content -->
 
-
-
-   <div class="container page-top">
-
-
-
-    <div class="row">
-      <div class="row">  
-        <div class="Calendario1">
-
-          <div class="Calendario1"> 
-            
-          <button type="button" class="btn btn-secondary">Enero</button> 
-
-
-
+    <div class="gallery">
+      <div class="container">
+        <h1>Galería de Imágenes</h1>
+        <div class="image-container">
+          <div class="image" *ngFor="let image of galleryImages">
+            <img [src]="image" alt="Imagen de Taekwondo">
           </div>
-                    
-          
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Febrero</button>
-
-
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Marzo</button>
-
-
-          </div>
-
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Abril</button>
-
-            
-          </div>
-
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Mayo</button>
-
-            
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Junio</button>
-
-            
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Julio</button>
-
-            
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Agosto</button>
-
-            
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Septiembre</button>
-
-            
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Octubre</button>
-
-            
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Noviembre</button>
-
-            
-          </div>
-
-          <div class="Calendario1"> 
-            <button type="button" class="btn btn-secondary">Diciembre</button>
-
-            
-          </div>
+        </div>
       </div>
-
-</div>
-
+    </div>
